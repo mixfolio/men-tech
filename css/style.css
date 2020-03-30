@@ -377,6 +377,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     background: url(../img/bg-001.jpg);
+    background-position: center top;
     background-repeat: no-repeat;
    /* background-size: cover;*/
 }
@@ -559,7 +560,7 @@ p {
 .why__box {
     background-image: url(../img/bg-waves.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     height: 440px;
 }
 
@@ -788,32 +789,6 @@ margin-bottom: 19px;
 
 /* Benefits stylts end */
 
-/* Top styles start */
-.top__title {
-    margin-bottom: 54px;
-}
-
-.top__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 22px;
-}
-
-.top__card-pic {
-    position: relative;
-}
-.top__card-stats{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: red;
-    padding: 16px 25px;
-}
-/* Top styles end */
 
 /* Work styles start */
 
@@ -923,6 +898,181 @@ margin-bottom: 19px;
     background-image: url(../img/svg/arr-left-ico.svg);
 }
 
-
-
 /* Work styles end */
+
+/* Parthners styles start */
+.parthers__title{
+    margin-bottom: 60px;
+}
+
+.partners__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 22px;
+    margin-bottom: 124px;
+
+} 
+
+.parthers__card {
+    width: 100%;
+    
+    text-align: center;
+    height: 100px;
+    
+
+}
+
+.parthers__logo {
+    
+    
+}
+
+
+
+/* Parthners styles end */
+
+/* Contacts styles start */
+.contacts__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contacts__logo {
+    margin-bottom: 30px;
+}
+
+.contacts__item {
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin-bottom: 27px;
+    padding-left: 36px;
+    position: relative;
+}
+
+.contacts__item::before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: -4px;
+    left: 0;
+}
+
+.contacts__item-01::before {
+    background-image: url(../img/svg/contacts-ico-01.svg);
+    
+}
+
+.contacts__item-02::before {
+    background-image: url(../img/svg/contacts-ico-02.svg);
+    width: 20px;
+    height: 28px;
+}
+
+.contacts__item-03::before {
+    background-image: url(../img/svg/contacts-ico-03.svg);
+    
+}
+
+.contacts__item-04::before {
+    background-image: url(../img/svg/contacts-ico-04.svg);
+    
+}
+
+
+
+.contacts__form-title {
+
+    text-align: left;
+    padding-left: 40px;
+    position: relative;
+}
+
+.contacts__form-title::before {
+    content: '';
+    background-image: url(../img/svg/Envelope-ico.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.send-form__wrap {
+    margin-top: 30px;
+}
+
+.send-form__field {
+    
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #424242;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.send-form__field::placeholder {
+    color: #616161;
+}
+
+.send-form_submit {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;
+    background-image: url(../img/red-btn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 38px 92px 34px 21px;;
+    margin-bottom: 60px;
+    
+}
+
+.send-form_submit:hover, .send-form_submit:focus, .send-form_submit:active {
+    opacity: .65;
+}
+
+
+
+/* Contacts styles end */
+
+
+/* Footer styles start */
+.footer {
+    border-top: 1px solid #373737;
+}
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.footer__item{
+    padding-top: 20px;
+    padding-bottom: 34px;
+}
+
+.footer__link {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+.footer__link:hover, .footer__link:focus:active{
+    color: #fff;
+}
+
+/* Footer styles end */
