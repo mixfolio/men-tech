@@ -1042,6 +1042,7 @@ p {
 .contacts__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 22px;
 }
 
 .contacts__logo {
