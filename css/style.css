@@ -377,9 +377,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     background: url(../img/bg-001.jpg);
-	background-color: #202020;
     background-position: center top;
     background-repeat: no-repeat;
+    background-color: #202020;
    /* background-size: cover;*/
 }
 
@@ -458,7 +458,7 @@ p {
 
 .intro__title{
     max-width: 542px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 41px;
     line-height: 120%;
     color: #fff;
@@ -892,12 +892,69 @@ p {
     margin-bottom: 60px;
 }
 
-.work__card-01 {
-    background-image: url(../img/Work-ico-01.png);
-    background-position: top right;
+
+
+.work__card-01::before {
+    content: '';
+    background-image: url(../img/svg/work-ico-01.svg);
+    position: absolute;
+    width: 120px;
+    height: 141px;
+    top: 100px;
+    right: 125px;
 }
 
-.work__card-02 {
+.work__card-02::before {
+    content: '';
+    background-image: url(../img/svg/work-ico-02.svg);
+    position: absolute;
+    width: 120px;
+    height: 141px;
+    top: 100px;
+    left: 140px;
+}
+
+.work__card-03::before {
+    content: '';
+    background-image: url(../img/svg/work-ico-03.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 129px;
+    height: 127px;
+    top: 100px;
+    right: 125px;
+}
+
+.work__card-04::before {
+    content: '';
+    background-image: url(../img/svg/work-ico-04.svg);
+    position: absolute;
+    width: 166px;
+    height: 158px;
+    top: 100px;
+    left: 140px;
+}
+
+.work__card-05::before {
+    content: '';
+    background-image: url(../img/svg/work-ico-05.svg);
+    position: absolute;
+    width: 127px;
+    height: 140px;
+    top: 100px;
+    right: 125px;
+}
+
+/*.work__card-01 {
+    background-image: url(../img/Work-ico-01.png);
+    background-position: top right;
+    position: relative;
+}*/
+
+
+
+/*
+ .work__card-02 {
     background-image: url(../img/Work-ico-02.png);
     background-position: top left;
 }
@@ -905,7 +962,7 @@ p {
 .work__card-03 {
     background-image: url(../img/Work-ico-03.png);
     background-position: top right;
-}
+} 
 
 .work__card-04 {
     background-image: url(../img/Work-ico-04.png);
@@ -916,7 +973,7 @@ p {
     background-image: url(../img/Work-ico-05.png);
     background-position: top right;
 }
-
+*/
 .work__digit::before{
     content: '';
     display: block;
@@ -1044,6 +1101,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 22px;
+    
 }
 
 .contacts__logo {
