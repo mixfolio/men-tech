@@ -552,6 +552,29 @@ p {
 }
 /* Desc_01 styles end */
 
+.diagrams__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 22px;
+}
+
+.diagrams__bar {
+    width: 100%;
+    height: 24px;
+    background-color: #000;
+    position: relative;
+}
+.diagrams__value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: #3FB6B6;
+    color: #000;
+}
+
 /* Why start */
 
 .why_title {
@@ -799,23 +822,37 @@ margin-bottom: 19px;
 
 .work__card{
     padding-top: 120px;
-    background-image: url(../img/Work-ico-01.png);
     height: 313px;
     background-repeat: no-repeat;
-    background-position: center right;
     position: relative;
     margin-bottom: 60px;
 }
 
+.work__card-01 {
+    background-image: url(../img/Work-ico-01.png);
+    background-position: top right;
+}
+
 .work__card-02 {
     background-image: url(../img/Work-ico-02.png);
-    background-position: center left;
+    background-position: top left;
+}
+
+.work__card-03 {
+    background-image: url(../img/Work-ico-03.png);
+    background-position: top right;
 }
 
 .work__card-04 {
     background-image: url(../img/Work-ico-04.png);
-    background-position: center left;
+    background-position: top left;
 }
+
+.work__card-05 {
+    background-image: url(../img/Work-ico-05.png);
+    background-position: top right;
+}
+
 .work__digit::before{
     content: '';
     display: block;
@@ -872,7 +909,7 @@ margin-bottom: 19px;
     text-align: right;
 }
 
-.work__desk{
+.work__desс{
     max-width: 600px;
     font-weight: normal;
     font-size: 18px;
@@ -881,7 +918,7 @@ margin-bottom: 19px;
     margin-bottom: 16px;
 }
 
-.work__desk-right {
+.work__desс-right {
     text-align: right;
     margin-left: auto;
 }
