@@ -377,6 +377,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     background: url(../img/bg-001.jpg);
+	background-color: #202020;
     background-position: center top;
     background-repeat: no-repeat;
    /* background-size: cover;*/
