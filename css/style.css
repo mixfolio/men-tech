@@ -1,0 +1,756 @@
+/* montserrat-300 - cyrillic_latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+         url('../fonts/montserrat-v14-cyrillic_latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic_latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - cyrillic_latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - cyrillic_latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+         url('../fonts/montserrat-v14-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - cyrillic_latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+         url('../fonts/montserrat-v14-cyrillic_latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic_latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - cyrillic_latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background: url(../img/bg-003.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #202020;
+   /* background-size: cover;*/
+}
+
+/* img{
+  max-width: 100%;
+  height: auto;
+}  */
+
+.wrapper{
+    max-width: 1198px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #fff;
+}
+
+h2 span {
+    color: #D04F45;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+    color: #9E9E9E;;
+}
+
+
+/* Header styles start */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 999;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.header__logo-pic {
+    width: 89px;
+    height: 52px;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__item{
+    margin-left: 30px;
+}
+
+.header__item:last-child{
+    padding: 12px 36px;
+    border: 1px solid #fff;
+    border-radius: 60px;
+}
+
+
+.header__link{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 190%;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__link:hover, .header__link:focus:active{
+    color: #D04F45;
+}
+  /* Header styles end */
+
+  /* Intro styles start */
+
+.intro{
+    padding-top: 204px;
+    position: relative;
+    padding-bottom: 328px;
+      
+}
+/* Head
+ .intro::before {
+    content: '';
+    background-image: url(../img/svg/head.svg);
+    width: 500px;
+    height: 570px;
+    position: absolute;
+    right: 194px;
+    top: 30px;
+} */
+
+.intro:hover::before, .intro:focus::before, .intro:active::before {
+    right: 180px;
+}
+
+.intro__title{
+    max-width: 668px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 41px;
+}
+
+.intro__desc{
+    max-width: 668px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B9B9B9;
+    margin-bottom: 53px;
+}
+
+.intro__more{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 54px;
+    border: 2px solid #D04F45;
+    border-radius: 60px;
+
+}
+
+.intro__more:hover, .intro__more:focus, .intro__more:active{
+    background-color: #D04F45;;
+}
+
+/* Intro styles end */
+
+/* Desc_01 styles start */
+
+.desc_01__wrapper {
+    padding-top: 62px;
+    background-image: url(../img/city.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 36px;;
+}
+
+.desc_01__title {
+    margin-bottom: 32px;
+}
+
+.desc_01__text {
+    max-width: 799px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B4B4B4;
+    margin-bottom: 25px;
+}
+
+
+/* Questions style */
+.quest {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* background-color: #3e3e3e; */
+}
+
+.quest__wrap {
+    width: 968px;
+    margin: 0 auto;
+}
+
+.quest__title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+    margin-bottom: 32px; 
+}
+
+.quest__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 42px;
+}
+.quest__card {
+    display: grid;
+    align-items: center;
+    background-image: url(../img/check-box.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+} 
+
+.quest__card-text {
+    padding-left: 89px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.quest__desc {
+    padding-top: 32px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B4B4B4;
+}
+
+/* Opportunity style start */
+.opport {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.opport__title {
+    margin-bottom: 50px;
+}
+
+.opport__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+
+}
+
+
+
+.opport__card {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 168px;
+    background-color: #29272C;;
+    text-align: center;
+    padding: 0 15px;
+    }
+
+.opport__desc { 
+    max-width: 290px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background-repeat: no-repeat;    
+    background-position: center top;
+
+}
+
+.opport__desc-01 { 
+    background-image: url(../img/svg/opp-ico-01.svg);
+    padding-top: 62px;
+}
+
+.opport__desc-02 { 
+    background-image: url(../img/svg/opp-ico-02.svg);
+    padding-top: 52px;
+}
+
+.opport__desc-03 { 
+    background-image: url(../img/svg/opp-ico-03.svg);
+    padding-top: 62px;
+}
+
+.opport__desc-04 { 
+    background-image: url(../img/svg/opp-ico-04.svg);
+    padding-top: 44px;
+}
+
+.opport__desc-05 { 
+    background-image: url(../img/svg/opp-ico-05.svg);
+    padding-top: 47px;
+}
+
+.opport__desc-06 { 
+    background-image: url(../img/svg/opp-ico-06.svg);
+    padding-top: 52px;
+}
+
+.opport__desc-07 { 
+    background-image: url(../img/svg/opp-ico-07.svg);
+    padding-top: 62px;
+}
+
+.opport__desc-08 { 
+    background-image: url(../img/svg/opp-ico-08.svg);
+    padding-top: 52px;
+}
+
+.opport__desc-09 { 
+    background-image: url(../img/svg/opp-ico-09.svg);
+    padding-top: 52px;
+}
+
+
+
+/* Opportunity style start end */
+
+/* Services styles start */
+.services {
+    background-color: #29272C;
+    padding-top: 76px;
+}
+
+.services__title{
+    margin-bottom: 43px;
+    text-align: center;
+ 
+ }
+
+ .services__title span {
+    color: #D04F45;
+}
+ .services__cards{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 138px;
+     background-image: url(../img/svg/serv-ico.svg);
+     background-repeat: no-repeat;
+     background-position: center top;
+ }
+ 
+ .services__card {
+     text-align: right;
+     margin-bottom: 120px;
+ }
+
+ .services__card-2 {
+     text-align: left;
+ }
+
+ .services__card-desc {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 30px;
+ }
+ /* Services styles end */
+
+ /* Benefits stylts start */
+
+ .benefits  {
+     padding-top: 108px;
+     padding-bottom: 100px;
+ }
+
+.benefits__title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 22px;
+    
+} 
+
+.benefits__card {
+    text-align: center;
+    padding-top: 100px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.benefits__card-01 {
+    background-image: url(../img/svg/bnf-ico-01.svg);
+}
+
+.benefits__card-02 {
+    background-image: url(../img/svg/bnf-ico-02.svg);
+}
+
+.benefits__card-03 {
+    background-image: url(../img/svg/bnf-ico-03.svg);
+}
+
+.benefits__card-04 {
+    background-image: url(../img/svg/bnf-ico-04.svg);
+    background-position: center 10px;
+}
+
+
+.benefits__card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.benefits__card-title::after {
+    content: '';
+    width: 96px;
+    height: 2px;
+    background-color: #D04F45;
+    position: absolute;
+    top: 40px;
+    left: 33%;
+}
+
+.benefits__card-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 194.4%;
+    color: #fff;
+}
+/* Benefits stylts end */
+
+/* Insites style end */
+.insites {
+    padding-top: 72px;
+    /* background-color: #3e3e3e; */
+    background-image: url(../img/insite-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 72px;
+}
+
+.insites__wrap {
+    max-width: 668px;
+    margin-left: auto;
+}
+
+
+.insites__title {
+    margin-bottom: 28px;
+}
+
+.insites__title span{
+    color: #D04F45;
+}
+
+.insites__desc {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+    color: #B9B9B9;
+    margin-bottom: 36px;
+    
+}
+
+.insites__link {
+    display: inline-block;
+    padding: 15px 33px 16px 76px;
+    border: 2px solid #585261;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 42px;
+    background-image: url(../img/svg/pdf-ico.svg);
+    background-repeat: no-repeat;
+    background-position: 32px center;
+}
+
+.insites__link:hover, .insites__link:focus {
+    background-color: #585261;;
+}
+/* Insites style end */
+
+.test {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.test__title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.test__link {
+    display: inline-block;
+    padding: 13px 40px;
+    border: 2px solid #D04F45;
+    border-radius: 60px;
+    font-family: Montserrat SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.test__link:hover, .test__link:focus .test__link:active {
+    background-color:  #D04F45;
+}
+
+.test__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 32px;
+}
+
+
+.test__visual {
+    height: 131px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    margin-bottom: 13px;
+}
+
+.test__visual-01 {
+    background-image: url(../img/svg/test-01.svg);
+}
+
+.test__visual-02 {
+    background-image: url(../img/svg/test-02.svg);
+}
+
+.test__visual-03 {
+    background-image: url(../img/svg/test-03.svg);
+}
+
+.test__visual-04 {
+    background-image: url(../img/svg/test-04.svg);
+}
+
+.test__visual-stat {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 190%;
+    color: #D04F45
+}
+
+.test__desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 190%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+}
+
+.test__desc span {
+    color: #D04F45
+}
+
+.test__desc-01 {
+    background-image: url(../img/svg/test-ico-01.svg);
+    padding-left: 30px;
+}
+
+.test__desc-02 {
+    background-image: url(../img/svg/test-ico-02.svg);
+    padding-left: 30px;
+}
+
+.test__desc-03 {
+    background-image: url(../img/svg/test-ico-03.svg);
+    padding-left: 30px;
+}
+
+.test__desc-04 {
+    background-image: url(../img/svg/test-ico-04.svg);
+    padding-left: 30px;
+}
+
+/* Contacts styles start */
+.contacts__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 22px;
+    
+}
+
+.contacts__logo {
+    margin-bottom: 30px;
+}
+
+.contacts__item {
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin-bottom: 27px;
+    padding-left: 36px;
+    position: relative;
+}
+
+
+
+
+
+
+/* Contacts styles end */
+
+
+/* Footer styles start */
+.footer__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__contacts-item {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    position: relative;
+    padding-left: 40px;
+}
+
+.footer__contacts-item::before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: -4px;
+    left: 0;
+}
+
+.footer__contacts-item-01::before {
+    background-image: url(../img/svg/contacts-ico-01.svg);
+    
+}
+
+.footer__contacts-item-02::before {
+    background-image: url(../img/svg/contacts-ico-02.svg);
+    width: 20px;
+    height: 28px;
+}
+
+.footer__contacts-item-03::before {
+    background-image: url(../img/svg/contacts-ico-03.svg);
+    
+}
+
+.footer__contacts-item-04::before {
+    background-image: url(../img/svg/contacts-ico-04.svg);
+    
+}
+
+
+.footer__nav {
+    border-top: 1px solid #373737;
+    padding: 27px 0;
+    
+}
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__item{
+    color: #4D4D4D;
+}
+
+.footer__link {
+    font-family: Montserrat Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 190%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+.footer__link:hover, .footer__link:focus:active{
+    color: #fff;
+}
+
+/* Footer styles end */
