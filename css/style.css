@@ -194,6 +194,10 @@ p {
     margin-bottom: 53px;
 }
 
+.intro__title span {
+    color: #D04F45;
+} 
+
 .intro__more{
     font-weight: 500;
     font-size: 14px;
