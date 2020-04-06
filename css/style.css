@@ -568,6 +568,33 @@ p {
     background-color:  #D04F45;
 }
 
+.test__rating-wrap {
+    display: grid;
+    grid-template-columns: 311px 234px 236px 230px;
+    grid-column-gap: 52px;
+    margin-bottom: 64px;
+}
+
+.test__rating-card {
+    display: flex;
+    align-items: center;
+}
+
+.test__rating-value {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 190%;
+    color:  #D04F45;
+}
+
+.test__rating-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fff;
+    margin-left: 12px;
+}
+
 .test__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -576,6 +603,9 @@ p {
 
 
 .test__visual {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     height: 131px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -600,12 +630,11 @@ p {
 }
 
 .test__visual-stat {
-    display: flex;
-    align-items: flex-end;
+    
     text-align: center;
     font-weight: normal;
     font-size: 42px;
-    line-height: 190%;
+    line-height: 80%;
     color: #D04F45
 }
 
