@@ -279,7 +279,7 @@ p {
 }
 
 .quest__wrap {
-    width: 968px;
+    max-width: 968px;
     margin: 0 auto;
 }
 
