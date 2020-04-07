@@ -63,12 +63,27 @@
 }
 
 @media screen and (max-width: 960px) {
+    .intro {
+        padding-bottom: 56px;
+    }
 
     .intro__title {
         max-width: 522px;
     }
     .intro__desc {
         max-width: 540px;
+    }
+
+    .desc_01 {
+        padding-top: 120px;
+        background-image: url(../img/city.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .desc_01__wrapper {
+        background-image: none;
+        
     }
     .opport__cards {
         grid-template-columns: repeat(2, 1fr);
@@ -127,11 +142,24 @@
 
 
 @media screen and (max-width: 767px) {
+    body {
+        background-image: none;
+    }
+
+    
+
     .intro {
+        background-image: url(../img/head.png);
+        background-position: center 100px;
+        background-repeat: no-repeat;
+        background-size: 207px 258px;
         text-align: center;
+        padding-top: 330px;
+        
     }
     .intro__title {
         max-width: 100%;
+        margin-bottom: 22px;
     }
     .intro__desc {
         max-width: 100%;
@@ -183,12 +211,12 @@
 
 @media screen and (max-width: 574px) {
     h2 {
-        font-size: 24px;
+        font-size: 28px;
         line-height: 27px;
         
     }
     .intro__title {
-        font-size: 22px;
+        font-size: 30px;
         line-height: 120%;
     }
     .quest__title {
