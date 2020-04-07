@@ -617,14 +617,23 @@ p {
     line-height: 180%;
     color: #fff;
     text-decoration: none;
-    margin-bottom: 80px;
+    margin-bottom: 48px;
 }
 
 .test__link:hover, .test__link:focus .test__link:active {
     background-color:  #D04F45;
 }
 
-.test__rating-wrap {
+
+.test__rating-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 32px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+/* .test__rating-cards {
     display: grid;
     grid-template-columns: 311px 234px 236px 230px;
     grid-column-gap: 52px;
@@ -634,7 +643,7 @@ p {
 .test__rating-card {
     display: flex;
     align-items: center;
-}
+}*/
 
 .test__rating-value {
     font-weight: 600;
@@ -648,8 +657,8 @@ p {
     font-size: 16px;
     line-height: 160%;
     color: #fff;
-    margin-left: 12px;
-}
+
+} 
 
 .test__cards {
     display: grid;
