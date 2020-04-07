@@ -443,6 +443,16 @@ p {
      text-align: left;
  }
 
+ .services__card-title {
+    display: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #585261;
+    margin-bottom: 22px;
+ }
+
  .services__card-desc {
     font-weight: 300;
     font-size: 22px;

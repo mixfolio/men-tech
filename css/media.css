@@ -169,6 +169,10 @@
         text-align: center;
     }
 
+    .quest {
+        padding-top: 30px;
+    }
+
     .quest__title {
         text-align: center;
     }
@@ -216,7 +220,7 @@
         
     }
     .intro__title {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 120%;
     }
     .quest__title {
@@ -236,13 +240,22 @@
 
     .opport__cards {
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 12px;
+    }
+
+    .services {
+        padding-top: 0;
+        background-color: transparent;
+        
     }
     .services__cards {
         grid-template-columns: repeat(1, 1fr); 
         background-image: none;
+        
     }
     .services__card {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .services__card-title {
@@ -255,6 +268,10 @@
         margin-bottom: 16px;
     }
 
+    .benefits {
+        padding-top: 50px;
+        
+    }
 
     .benefits__cards {
         grid-template-columns: repeat(1, 1fr);
@@ -262,6 +279,17 @@
         
     } 
 
+    .insites {
+        padding-bottom: 40px;
+    }
+    .insites__wrap {
+        background-size: 215px 237px;
+        padding-top: 220px;
+    }
+    .test {
+        
+        padding-top: 30px;
+    }
     .test__rating-cards {
         max-width: 80%;
         margin: 0 auto 60px auto;
