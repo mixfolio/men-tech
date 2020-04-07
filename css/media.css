@@ -64,22 +64,184 @@
 
 @media screen and (max-width: 960px) {
 
+    .intro__title {
+        max-width: 522px;
+    }
+    .intro__desc {
+        max-width: 540px;
+    }
     .opport__cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services__card-desc {
+        font-size: 18px;
+        line-height: 24px;
+
+     }
+
+    .benefits__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
         
+    } 
+    .insites {
+        padding-top: 0;
+    }
+    .insites__wrap {
+
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background-image: url(../img/rocket.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding-top: 400px;
+    }
+
+    .insites__wrap::before {
+
+        display: none;
     
     }
+
+    .test__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+
+    .test__desc {
+        text-align: center;
+    }
+    
+    .footer__item {
+        display: none;
+    }
+
+    .footer__item:first-child {
+        display: block;
+    
+    }
+    
 }
 
 
 @media screen and (max-width: 767px) {
+    .intro {
+        text-align: center;
+    }
+    .intro__title {
+        max-width: 100%;
+    }
+    .intro__desc {
+        max-width: 100%;
+    }
+
+    .desc_01 {
+        text-align: center;
+    }
+
+    .quest__title {
+        text-align: center;
+    }
+    .quest__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0px;
+    }
+
+    .quest__card { 
+        padding: 15px 0;
+    }
+    
+    .quest__desc {
+        text-align: center;
+    }
+    
+    .opport__title {
+        text-align: center;
+    }
+
+    .services__card-desc {
+        font-size: 16px;
+        line-height: 20px;
+
+     }
+
+    .test__rating-cards {
+        max-width: 80%;
+        margin: 0 auto 60px auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        
+    }
+
+    
 
 
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 574px) {
+    h2 {
+        font-size: 24px;
+        line-height: 27px;
+        
+    }
+    .intro__title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .quest__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .quest__card-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
 
+    .opport__title {
+        font-size: 22px;
+        line-height: 27px;
+
+    }
+
+    .opport__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services__cards {
+        grid-template-columns: repeat(1, 1fr); 
+        background-image: none;
+    }
+    .services__card {
+        text-align: center;
+    }
+
+    .services__card-desc {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+
+
+    .benefits__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+        
+    } 
+
+    .test__rating-cards {
+        max-width: 80%;
+        margin: 0 auto 60px auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+        
+    }
+
+    .test__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+    }
 
 
 }
