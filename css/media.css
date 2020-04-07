@@ -1,0 +1,251 @@
+@media screen and (max-width: 1180px) {
+    .header__burger {
+        display: block;
+    }
+    .header__nav {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        z-index: 10;
+        padding: 75px;
+        transform: translateX(100%);
+    }
+
+    .header__nav_active {
+        transform: translateX(0);
+        transition: 0.2 all linear;
+
+    }
+
+    .header__item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .header__item:last-child {
+        display: none;
+    }
+
+    .header__link {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .header__nav-close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+
+    .header__nav-close-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+    }
+
+    .header__nav-close-line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .header__nav-close-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .intro__title {
+        max-width: 522px;
+    }
+    .intro__desc {
+        max-width: 540px;
+    }
+    .opport__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services__card-desc {
+        font-size: 18px;
+        line-height: 24px;
+
+     }
+
+    .benefits__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        
+    } 
+    .insites {
+        padding-top: 0;
+    }
+    .insites__wrap {
+
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background-image: url(../img/rocket.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding-top: 400px;
+    }
+
+    .insites__wrap::before {
+
+        display: none;
+    
+    }
+
+    .test__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+
+    .test__desc {
+        text-align: center;
+    }
+    
+    .footer__item {
+        display: none;
+    }
+
+    .footer__item:first-child {
+        display: block;
+    
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .intro {
+        text-align: center;
+    }
+    .intro__title {
+        max-width: 100%;
+    }
+    .intro__desc {
+        max-width: 100%;
+    }
+
+    .desc_01 {
+        text-align: center;
+    }
+
+    .quest__title {
+        text-align: center;
+    }
+    .quest__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0px;
+    }
+
+    .quest__card { 
+        padding: 15px 0;
+    }
+    
+    .quest__desc {
+        text-align: center;
+    }
+    
+    .opport__title {
+        text-align: center;
+    }
+
+    .services__card-desc {
+        font-size: 16px;
+        line-height: 20px;
+
+     }
+
+    .test__rating-cards {
+        max-width: 80%;
+        margin: 0 auto 60px auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        
+    }
+
+    
+
+
+
+}
+
+@media screen and (max-width: 574px) {
+    h2 {
+        font-size: 24px;
+        line-height: 27px;
+        
+    }
+    .intro__title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .quest__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .quest__card-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .opport__title {
+        font-size: 22px;
+        line-height: 27px;
+
+    }
+
+    .opport__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services__cards {
+        grid-template-columns: repeat(1, 1fr); 
+        background-image: none;
+    }
+    .services__card {
+        text-align: center;
+    }
+
+    .services__card-title {
+        display: block;
+    }
+
+    .services__card-desc {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+
+
+    .benefits__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+        
+    } 
+
+    .test__rating-cards {
+        max-width: 80%;
+        margin: 0 auto 60px auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+        
+    }
+
+    .test__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+    }
+
+
+}
