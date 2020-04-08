@@ -139,6 +139,11 @@
         display: block;
     
     }
+
+    .footer__list {
+        justify-content: center;
+        
+    }
     
 }
 
@@ -200,6 +205,9 @@
         line-height: 20px;
 
      }
+     .test {
+         padding-bottom: 80px;
+     }
 
     .test__rating-cards {
         max-width: 80%;
@@ -207,6 +215,17 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 32px;
         
+    }
+    .footer__contacts {
+        display: block;
+    }
+
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+
+    .footer__contacts-item {
+        margin-bottom: 20px;
     }
 
     
@@ -272,6 +291,7 @@
 
     .benefits {
         padding-top: 50px;
+        padding-bottom: 30px;
         
     }
 
