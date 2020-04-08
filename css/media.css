@@ -63,17 +63,18 @@
         transform: translateY(-50%) rotate(-45deg);
     }
 }
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 960px) {
-    .intro {
-        padding-bottom: 56px;
-    }
-
-    .intro__title {
+} .intro__title {
         max-width: 522px;
     }
     .intro__desc {
         max-width: 540px;
+    }
+
+@media screen and (max-width: 960px) {
+    .intro {
+        padding-bottom: 56px;
     }
 
     .desc_01 {
@@ -148,7 +149,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     body {
         background-image: none;
     }
@@ -218,6 +219,7 @@
     }
     .footer__contacts {
         display: block;
+        padding-bottom: 0;
     }
 
     .footer__logo {

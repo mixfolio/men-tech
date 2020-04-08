@@ -1,0 +1,65 @@
+body {
+    background-image: none;
+}
+
+.knowbase {
+    padding-top: 190px;
+    padding-bottom: 152px;
+}
+
+.knowbase__link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 14px;
+    border: 2px solid #585261;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #585261;
+
+}
+
+.knowbase__title {
+    margin-bottom: 47px;
+}
+
+.knowbase__card-wrap {
+    display: flex;
+    background-color: #29272C;
+    align-items: center;
+    margin-bottom: 19px;
+} 
+
+.knowbase__card-links {
+    
+}
+
+.knowbase_card-link-one {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    background-image: url(../img/svg/pdf-ico.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 46px;
+    margin-left: 33px;
+    color: #fff;
+}
+
+.knowbase_card-link-two {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D04F45;
+}
+
+.knowbase__card-desc {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 42px;
+}
