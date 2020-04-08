@@ -3,22 +3,25 @@ body {
 }
 
 .knowbase {
-    padding-top: 190px;
+    padding-top: 140px;
     padding-bottom: 152px;
 }
 
 .knowbase__link {
     display: inline-block;
-    margin-bottom: 20px;
-    padding: 8px 14px;
+    margin-bottom: 40px;
+    padding: 15px 60px;
     border: 2px solid #585261;
     border-radius: 50px;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #585261;
+    color: #fff
+}
 
+.knowbase__link:hover, .knowbase__link:active, .knowbase__link:focus {
+    background-color: #585261;
 }
 
 .knowbase__title {
@@ -42,7 +45,7 @@ body {
     
 }
 
-.knowbase_card-link-one {
+.knowbase_card-link-desc {
     
     font-weight: 500;
     font-size: 16px;
@@ -56,7 +59,7 @@ body {
     color: #fff;
 }
 
-.knowbase_card-link-two {
+.knowbase_card-link {
     
     font-weight: 700;
     font-size: 16px;
@@ -96,7 +99,7 @@ body {
         display: block;
     }
 
-    .knowbase_card-link-one {
+    .knowbase_card-link-desc {
         display: inline-block;
         margin: 0 0 20px 0;
         padding: 0;
@@ -104,7 +107,7 @@ body {
         background-position: center top;
     }
 
-    .knowbase_card-link-two {
+    .knowbase_card-link {
         display: block;
         margin: 0;
     }
