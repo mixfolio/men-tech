@@ -131,6 +131,15 @@
     .test__desc {
         text-align: center;
     }
+    .test__desc-wrap{
+        max-width: 200px;
+        margin: 0 auto;
+        
+        
+    }
+    .test__desc-01, .test__desc-02, .test__desc-03, .test__desc-04{
+        text-align: left;
+    }
     
     .footer__item {
         display: none;
