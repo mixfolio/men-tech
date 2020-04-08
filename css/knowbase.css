@@ -27,16 +27,23 @@ body {
 
 .knowbase__card-wrap {
     display: flex;
+    justify-content: space-between;
     background-color: #29272C;
     align-items: center;
     margin-bottom: 19px;
 } 
 
 .knowbase__card-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
     
 }
 
 .knowbase_card-link-one {
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -50,11 +57,14 @@ body {
 }
 
 .knowbase_card-link-two {
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 70px;
+    margin-left: 30px;
     color: #D04F45;
 }
 
@@ -62,4 +72,41 @@ body {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 42px;
+}
+
+@media screen and (max-width: 768px) {
+    .knowbase__card-pic {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .knowbase__card-wrap {
+        padding-top: 20px;
+        display: block;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .knowbase  {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .knowbase__card-links {
+        display: block;
+    }
+
+    .knowbase_card-link-one {
+        display: inline-block;
+        margin: 0 0 20px 0;
+        padding: 0;
+        padding-top: 40px;
+        background-position: center top;
+    }
+
+    .knowbase_card-link-two {
+        display: block;
+        margin: 0;
+    }
+
 }
