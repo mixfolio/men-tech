@@ -782,10 +782,11 @@ p {
     justify-content: space-between;
 }
 
-.footer__contacts-item {
+.footer__contacts-item a{
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
     color: #A5A5A5;
     position: relative;
     padding-left: 40px;
