@@ -91,6 +91,9 @@
     .opport__cards {
         grid-template-columns: repeat(2, 1fr);
     }
+    .opport__card:last-child {
+        grid-column: 1 / -1;
+    }
 
     .services__card-desc {
         font-size: 18px;
