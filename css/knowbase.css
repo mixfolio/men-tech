@@ -9,8 +9,9 @@
     padding: 15px 60px;
     border: 2px solid #585261;
     border-radius: 50px;
-    font-size: 14px;
-    line-height: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 190%;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff

@@ -235,8 +235,8 @@ p {
 } 
 
 .intro__more{
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 190%;
     text-decoration: none;
     color: #fff;
@@ -592,12 +592,12 @@ p {
 
 .insites__link {
     display: inline-block;
-    padding: 15px 33px 16px 76px;
+    padding: 15px 33px 15px 76px;
     border: 2px solid #585261;
     border-radius: 60px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 180%;
+    line-height: 190%;
     color: #fff;
     text-decoration: none;
     background-image: url(../img/svg/pdf-ico.svg);
@@ -622,12 +622,12 @@ p {
 
 .test__link {
     display: inline-block;
-    padding: 13px 40px;
+    padding: 15px 30px;
     border: 2px solid #D04F45;
     border-radius: 60px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 180%;
+    line-height: 190%;
     color: #fff;
     text-decoration: none;
     margin-bottom: 48px;
