@@ -135,9 +135,13 @@ p {
 .header__item:last-child{
     padding: 12px 36px;
     border: 2px solid #D04F45;
-    border-radius: 60px;
+    border-radius: 60px; 
 }
 
+.header__item:hover:last-child, .header__item:active:last-child,
+.header__item:focus:last-child{
+    background-color: #D04F45;
+}
 
 .header__link{
     font-weight: 500;
@@ -149,8 +153,12 @@ p {
     color: #fff;
 }
 
-.header__link:hover, .header__link:focus:active{
+.header__link:hover, .header__link:focus, .header__link:active {
     color: #D04F45;
+}
+
+.header__link:hover:last-child {
+    color: #fff;
 }
 
 .header__burger {
@@ -526,7 +534,7 @@ p {
     background-color: #D04F45;
     position: absolute;
     top: 40px;
-    left: 33%;
+    left: calc(50% - 43px);
 }
 
 .benefits__card-desc {
