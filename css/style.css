@@ -309,6 +309,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 32px;
     grid-row-gap: 42px;
+    list-style: none;
 }
 .quest__card {
     display: grid;
@@ -348,6 +349,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 32px;
+    list-style: none;
 
 }
 
@@ -491,6 +493,7 @@ p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 22px;
+    list-style: none;
     
 } 
 
@@ -568,18 +571,7 @@ p {
     left: -522px;
     width: 448px;
     height: 444px;
-
 }
-
-/* .insites__pic {
-    background-image: url(../img/svg/rocket.svg);
-    background-repeat: no-repeat;
-    background-color: black;
-
-    width: 448px;
-    height: 444px;
-
-} */
 
 .insites__title {
     margin-bottom: 28px;
@@ -594,8 +586,7 @@ p {
     font-size: 18px;
     line-height: 190%;
     color: #B9B9B9;
-    margin-bottom: 36px;
-    
+    margin-bottom: 36px;   
 }
 
 .insites__link {
@@ -647,29 +638,21 @@ p {
 
 
 .test__rating-cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 32px;
-    margin-bottom: 64px;
-    text-align: center;
-}
-
-/* .test__rating-cards {
-    display: grid;
-    grid-template-columns: 311px 234px 236px 230px;
-    grid-column-gap: 52px;
     margin-bottom: 64px;
 }
 
 .test__rating-card {
     display: flex;
+    justify-content: center;
     align-items: center;
-}*/
+
+}
 
 .test__rating-value {
     font-weight: 600;
-    font-size: 34px;
+    font-size: 48px;
     line-height: 190%;
+    margin-right: 20px;
     color:  #D04F45;
 }
 
