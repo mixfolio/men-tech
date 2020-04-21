@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men plus Tech</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
            <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="/men-tech" class="header__logo-link">
-                        <img src="./img/svg/LogoMen.svg" alt="Логотип компании Men+Tech" class="header__logo-pic">
+                        <img src="img/svg/LogoMen.svg" width="89" height="52" alt="Логотип компании Men+Tech" class="header__logo-pic">
                     </a>
                 </div>
 
@@ -39,7 +39,7 @@
                             <a href="#test" class="header__link js-scroll">Цифровизация</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Напишите нам</a>
+                            <a href="mail-form.html" class="header__link send-message">Напишите нам</a>
                         </li>
                     </ul>
                     <div class="header__nav-close">
@@ -61,10 +61,10 @@
     <!-- Header end -->
 
     <main class="main">
+        <h1 class="visually-hidden">Сайт компании Man plus Tech</h1>
         <!-- Intro start -->
         <section class="intro">
             <div class="wrapper">
-                <h1>Сайт компании Man plus Tech</h1>
                 <h2 class="intro__title">
                     Решения и поддержка для <span>удаленной работы</span> вашего офиса
                 </h2>
@@ -447,11 +447,11 @@
             <div class="footer__contacts">
                 <div class="footer__logo">
                     <a href="/men-tech" class="footer__logo-link">
-                        <img src="./img/svg/LogoMen.svg" alt="Men+Tech " class="header__logo-pic">
+                        <img src="img/svg/LogoMen.svg" width="89" height="52" alt="Логотип компании Men+Tech" class="header__logo-pic">
                     </a>
                 </div>
                 <p class="footer__contacts-item footer__contacts-item-01">
-                    8 (495) 909-30-69
+                    +7 (915) 123-12-03
                 </p>
                 <p class="footer__contacts-item footer__contacts-item-02">
                     125009, г. Москва, ул. 1905 года, 7к1
@@ -499,7 +499,42 @@
     </footer>
 
     <!-- Footer end -->
-    <script src="./js/main.js"></script>
+
+    <!-- Modal start -->
+    <section class="modal modal-message">
+        <button class="modal-close" type="button"></button>
+        <h2 class="modal-title">Отправить <span>сообщение</span></h2>
+        <form  class="modal-form" action="" method="POST">
+            <p class="form-item">
+                <label for="username">ФИО</label>
+                <input class="modal-input" id="username" name="username" type="text" placeholder="Введите ФИО" required>
+            </p class="form-item">
+            <div class="form-box">
+                <p class="form-item">
+                    <label for="">Телефон</label>
+                    <input class="modal-input" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+                </p>
+                <p class="form-item">
+                    <label for="">E-mail</label>
+                    <input class="modal-input" name="email" type="email" placeholder="Введите e-mail" required>
+                </p>
+            </div>
+            <p class="form-item">
+                <label for="">Сообщение</label>
+                <textarea class="modal-input modal-textarea"  name="message" rows="3" placeholder="Введите текст"></textarea>
+            </p>
+
+            <div class="center">
+                <button class="submit-button" type="submit">Отправить</button>
+            </div>
+        </form>
+    </section>
+
+
+
+    <!-- Modal end -->
+
+    <script src="js/main.js"></script>
     
 </body>
 </html>

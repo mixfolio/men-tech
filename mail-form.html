@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="remodal-wrapper remodal-is-closed">
+        <div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal-simple" tabindex="-1">
+            <button class="remodal__close" type="button" data-remodal-action="close"><i class="icon-close"></i></button>
+            <form class="form ajax-form" action="/feedback" method="post" novalidate="novalidate">
+                <h2 class="form__title">
+                     Отправить сообщение
+                </h2>
+                <div class="form__field-group">
+                    <input type="hidden" name="Type" value="simple">
+                <div class="form__item">
+                     <label class="input-box"><span class="input-box__label">ФИО</span>
+                        <span class="input-box__body">
+                            <span class="input-box__field-w">
+                                <input class="input-box__field input-default" name="Username" type="text" data-val="true" data-val-required="" placeholder="Представьтесь, пожалуйста">
+                            </span>
+                         <span class="input-box__caption"></span>
+            </span>
+            </label>
+
+                </div>
+                <div class="form__item">
+                    <div class="row row-grid-md">
+                        <div class="col-md-6">
+                                <label class="input-box">
+            <span class="input-box__label">Телефон</span>
+            <span class="input-box__body">
+            <span class="input-box__field-w">
+                <input class="input-box__field input-default" name="Phone" type="tel" data-val="true" data-val-required="" placeholder="+7 (___) ___-__-__">
+            </span>
+            <span class="input-box__caption"></span>
+            </span>
+            </label>
+
+                        </div>
+                        <div class="col-md-6">
+                                <label class="input-box">
+            <span class="input-box__label">E-mail</span>
+             <span class="input-box__body">
+            <span class="input-box__field-w">
+                <input class="input-box__field input-default" name="Email" type="email" data-val="true" data-val-required="" data-val-email="" placeholder="Ваша эл. почта">
+            </span>
+            <span class="input-box__caption"></span>
+            </span>
+            </label>
+
+                        </div>
+                    </div>
+                </div>
+                    <div class="form__item">
+                        <label class="input-box input-box--textarea">
+                            <span class="input-box__label">Ваше сообщение</span>
+                            <span class="input-box__field-w">
+                                <textarea class="input-box__field input-default" name="Message" rows="4" placeholder="Ваше сообщение"></textarea>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+
+                <button class="btn btn--theme_main form__submit btn-status" type="submit">
+                    <span class="text">Отправить</span><span class="spinner"></span>
+                </button>
+                <div class="form__item">
+                    <p class="bcrumbs-list__link is-current"><input name="legal" checked="checked" type="checkbox" value="true">Отправляя форму, вы подтверждаете, что ознакомлены <br>с <a style="color:#3272d9;" href="/legal">политикой конфиденциальности</a></p>
+                </div>
+             </form>
+        </div>
+    </div>
+</body>
+</html>
