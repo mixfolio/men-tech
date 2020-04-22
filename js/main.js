@@ -64,9 +64,9 @@
 // Modal 
 
 var link = document.querySelector(".send-message");
-        var popup = document.querySelector(".modal-message");
+        var popup = document.querySelector(".modal-bg");
         var close = document.querySelector(".modal-close");
-        var login = popup.querySelector("[name=login]");
+        var login = popup.querySelector("[name=username]");
 
         link.addEventListener("click", function (evt) {
             evt.preventDefault();

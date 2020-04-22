@@ -160,6 +160,15 @@ input[type="radio"].visually-hidden {
     color: #fff;
 }
 
+
+
+.header__link:hover, 
+.header__link:focus, 
+.header__link:active {
+    color: #D04F45;
+}
+
+
 .send-message{
     padding: 15px 36px;
     border: 2px solid #D04F45;
@@ -170,14 +179,7 @@ input[type="radio"].visually-hidden {
 .send-message:focus, 
 .send-message:active  {
     background-color: #D04F45;
-}
-
-.header__link:hover, .header__link:focus, .header__link:active {
-    color: #D04F45;
-}
-
-.header__link:hover:last-child {
-    color: #fff;
+    color: #ffffff;
 }
 
 .header__burger {
@@ -881,6 +883,22 @@ input[type="radio"].visually-hidden {
 }
 /* Footer styles end */
 
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.6);
+    
+    z-index: 1001;
+    display: none;
+}
+
+.modal-show {
+    display: block;
+}
+
 .modal {
     position: fixed;
     color: #ffffff;
@@ -888,19 +906,15 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-message {
-    display: none;
-    top: 100px;
-    left: 50%;
-    margin-left: -400px;
-    max-width: 800px;
+    /* display: none; */
+    top: 90px;
+    left: calc(50% - 400px);
+    
+    width: 800px;
     padding: 60px;
     padding-top: 40px;
     border-radius: 40px;
 }
-
-.modal-show {
-    display: block;
-  }
 
 .modal-close {
     position: absolute;
@@ -960,7 +974,7 @@ input[type="radio"].visually-hidden {
 }
 
 .form-box input {
-    max-width: 330px;
+    width: 330px;
 }
 
 
@@ -990,3 +1004,5 @@ input[type="radio"].visually-hidden {
     border: 2px solid #D04F45;
     border-radius: 60px;
 }
+
+
