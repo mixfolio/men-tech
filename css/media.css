@@ -366,13 +366,22 @@
         grid-gap: 32px;
     }
 
+    .modal-bg {
+        position: absolute;
+        height: 9000px;
+
+    }
+
     .modal-message{
         top: 0;
-        position: absolute;
         left: 0;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .modal-title {
+        
+        padding-right: 60px;
     }
 
     
