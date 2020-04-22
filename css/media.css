@@ -27,9 +27,9 @@
         
     }
 
-    .header__item:last-child {
+    /* .header__item:last-child {
         display: none;
-    }
+    } */
 
     .header__link {
         font-size: 24px;
