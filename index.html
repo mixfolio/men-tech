@@ -39,7 +39,7 @@
                             <a href="#test" class="header__link js-scroll">Цифровизация</a>
                         </li>
                         <li class="header__item">
-                            <a href="#modal-message" class="header__link send-message js-scroll">Напишите нам</a>
+                            <a href="postform.html" class="header__link send-message">Напишите нам</a>
                         </li>
                     </ul>
                     <div class="header__nav-close">
@@ -504,7 +504,7 @@
     
 
     <div class="modal-bg">
-        <section class="modal modal-message" id="modal-message">
+        <section class="modal modal-message">
             <button class="modal-close" type="button"></button>
             <h2 class="modal-title">Отправить <span>сообщение</span></h2>
             <form  class="modal-form" action="" method="POST">
@@ -526,10 +526,22 @@
                     <label>Сообщение</label>
                     <textarea class="modal-input modal-textarea" name="user-message" rows="3" placeholder="Введите текст"></textarea>
                 </p>
+
+                
+                <p class="form-legal">
+                    <label class="legal-checkbox">
+                        <input class="visually-hidden" name="legal" checked="checked" type="checkbox" value="true">
+                        <span class="checkbox-indicator"></span>
+                        Отправляя форму, вы подтверждаете, что ознакомлены с <a style="color:#D04F45;" href="#">политикой конфиденциальности</a>
+                    </label>
+                        
+                </p>
+                
     
                 <div class="center">
                     <button class="submit-button" type="submit">Отправить</button>
                 </div>
+                
             </form>
         </section>
     </div>

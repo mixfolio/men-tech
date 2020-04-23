@@ -1002,8 +1002,61 @@ input[type="radio"].visually-hidden {
     border-radius: 20px;
 }
 
+.form-legal {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+.form-legal a {
+    text-decoration: none;
+    
+}
+
+.legal-checkbox {
+    position: relative;
+    padding-left: 36px;
+    /* cursor: pointer; */
+}
+
+.legal-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    top: -4px;
+    left: 0;
+
+    width: 22px;
+    height: 22px;
+
+    border: 1px solid #464646;
+    border-radius: 4px;
+}
+
+.legal-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+    border-color: red;
+}
+
+.legal-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.legal-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: '';
+
+    position: absolute;
+    top: 9px;
+    left: 3px;
+    width: 15px;
+    height: 2px;
+    background-color: #D04F45;
+}
+
+.legal-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.legal-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(-45deg);
+}
+
 .submit-button {
-    margin-top: 30px;
     padding: 14px 60px;
     font-weight: 600;
     font-size: 14px;

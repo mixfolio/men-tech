@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Напишите нам</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <section class="modal modal-message">
+        <button class="modal-close" type="button"></button>
+        <h2 class="modal-title">Отправить <span>сообщение</span></h2>
+        <form  class="modal-form" action="" method="POST">
+            <p class="form-item">
+                <label>ФИО</label>
+                <input class="modal-input" name="user-name" type="text" placeholder="Введите ФИО" required>
+            </p class="form-item">
+            <div class="form-box">
+                <p class="form-item">
+                    <label>Телефон</label>
+                    <input class="modal-input" name="user-phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+                </p>
+                <p class="form-item">
+                    <label>E-mail</label>
+                    <input class="modal-input" name="user-email" type="email" placeholder="Введите e-mail" required>
+                </p>
+            </div>
+            <p class="form-item">
+                <label>Сообщение</label>
+                <textarea class="modal-input modal-textarea" name="user-message" rows="3" placeholder="Введите текст"></textarea>
+            </p>
+
+            
+            <p class="form-legal">
+                <label class="legal-checkbox">
+                    <input class="visually-hidden" name="legal" checked="checked" type="checkbox" value="true">
+                    <span class="checkbox-indicator"></span>
+                    Отправляя форму, вы подтверждаете, что ознакомлены с <a style="color:#D04F45;" href="#">политикой конфиденциальности</a>
+                </label>
+                    
+            </p>
+            
+
+            <div class="center">
+                <button class="submit-button" type="submit">Отправить</button>
+            </div>
+            
+        </form>
+    </section>
+    
+</body>
+</html>
