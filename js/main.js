@@ -63,7 +63,7 @@
 
 // Modal 
 
-var link = document.querySelector(".send-message");
+        var link = document.querySelector(".send-message");
         var popup = document.querySelector(".modal-bg");
         var close = document.querySelector(".modal-close");
         var login = popup.querySelector("[name=username]");
