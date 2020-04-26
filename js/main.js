@@ -1,4 +1,6 @@
+// Particles
 
+particlesJS.load('particles', '/js/particle-settings_01.json')
 
 // Burger handler
 (function () {

@@ -220,12 +220,26 @@ input[type="radio"].visually-hidden {
     padding-top: 204px;
     position: relative;
     padding-bottom: 328px;
-    background-image: url(../img/bg-intro-01.jpg);
+     
+}
+
+.particles {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    background-image: url(../img/bg-intro-02.jpg);
     background-repeat: no-repeat;
     
+    
     background-position: center top;
-      
+
 }
+
 /* Head
  .intro::before {
     content: '';
